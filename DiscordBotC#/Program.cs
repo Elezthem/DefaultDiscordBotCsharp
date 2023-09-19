@@ -17,7 +17,7 @@ namespace Discord_Bot_CHATP
             client.MessageReceived += CommandsHandler;
             client.Log += Log;
 
-            var token = "MTE1MzcxMDI1NDkyMDU2ODkwMw.GfSXg8.7OHitWCGuOwcwVx8fB6Dc_TucK8tf1a1o8zD_U";
+            var token = "token";
 
             await client.LoginAsync(TokenType.Bot, token);
             await client.StartAsync();
